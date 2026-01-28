@@ -13,15 +13,17 @@
    flutter pub get
    ```
 
-3. **Create your config file**
+3. **Create your config files**
    ```bash
-   # Copy the example config
+   # Copy the example config files
    cp lib/config/app_config.dart.example lib/config/app_config.dart
+   cp web/index.html.template web/index.html
    ```
 
 4. **Add your API keys** to `lib/config/app_config.dart`
 
-5. **Setup Firebase**
+5. **Configure Firebase**
+   - Edit `web/index.html` and replace Firebase config placeholders with your actual values
    - Create project at https://console.firebase.google.com/
    - Download `google-services.json` to `android/app/`
    - Enable Authentication (Email/Password)
