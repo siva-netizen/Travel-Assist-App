@@ -1,0 +1,28 @@
+/// API Configuration Class
+/// Copy this file to app_config.dart and add your actual API keys
+/// DO NOT commit app_config.dart - it should be in .gitignore
+class AppConfig {
+  // Weather API Keys
+  static const String weatherApiKey = 'YOUR_WEATHER_API_KEY_HERE';
+  static const String weatherbitApiKey = 'YOUR_WEATHERBIT_API_KEY_HERE';
+
+  // HERE Maps API Key
+  static const String hereApiKey = 'YOUR_HERE_MAPS_API_KEY_HERE';
+
+  // Distance Matrix API Key
+  static const String distanceMatrixApiKey = 'YOUR_DISTANCE_MATRIX_API_KEY_HERE';
+
+  // Twilio Credentials
+  static const String twilioAccountSid = 'YOUR_TWILIO_ACCOUNT_SID_HERE';
+  static const String twilioAuthToken = 'YOUR_TWILIO_AUTH_TOKEN_HERE';
+  static const String twilioPhoneNumber = 'YOUR_TWILIO_PHONE_NUMBER_HERE';
+
+  // Firebase Configuration (for web)
+  static const String firebaseApiKey = 'YOUR_FIREBASE_API_KEY_HERE';
+  static const String firebaseAuthDomain = 'your-project-id.firebaseapp.com';
+  static const String firebaseProjectId = 'YOUR_FIREBASE_PROJECT_ID';
+  static const String firebaseStorageBucket = 'your-project-id.appspot.com';
+  static const String firebaseMessagingSenderId = 'YOUR_MESSAGING_SENDER_ID';
+  static const String firebaseAppId = 'YOUR_FIREBASE_APP_ID';
+  static const String firebaseDatabaseUrl = 'https://your-project-id-default-rtdb.firebaseio.com';
+}

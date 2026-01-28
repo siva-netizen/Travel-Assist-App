@@ -1,0 +1,90 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Source code
+*.dart text diff=dart
+*.java text diff=java
+*.kt text diff=kotlin
+*.gradle text diff=java
+*.xml text
+*.json text
+*.yaml text
+*.yml text
+*.md text
+*.txt text
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Flutter/Dart specific
+pubspec.lock linguist-generated=true
+*.g.dart linguist-generated=true
+*.freezed.dart linguist-generated=true
+*.mocks.dart linguist-generated=true
+
+# iOS/Swift
+*.pbxproj merge=union
+*.swift text diff=swift
+*.h text diff=objc
+*.m text diff=objc
+
+# Android
+*.properties text
+gradlew text eol=lf
+*.gradle text diff=java
+
+# Web
+*.html text diff=html
+*.css text diff=css
+*.js text
+*.ts text
+
+# Documentation
+*.markdown text diff=markdown
+*.md text diff=markdown
+*.mdx text diff=markdown
+README text
+
+# Graphics
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.svg text
+
+# Fonts
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+
+# Archives
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+*.jar binary
+*.aar binary
+
+# Executables
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# Build outputs
+*.apk binary
+*.aab binary
+*.ipa binary
+*.app binary
+*.dex binary
+
+# Database
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+
+# Other
+*.pdf binary
